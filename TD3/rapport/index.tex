@@ -1,17 +1,11 @@
 \documentclass[a4paper,10pt]{article}
 
 \include{./include/pkg}
+
+\usepackage{color}
 \usepackage{listings}
-%\lstset{
-%language=C,
-%basicstyle=\small\sffamily,
-%numbers=left,
-%numberstyle=\tiny,
-%frame=tb,
-%columns=fullflexible,
-%showstringspaces=false
-%}
-\lstset{language=C,captionpos=b,tabsize=3,frame=lines,keywordstyle=\color{blue},commentstyle=\color{darkgreen},stringstyle=\color{red},numbers=left,numberstyle=\tiny,numbersep=5pt,breaklines=true,showstringspaces=false,basicstyle=\footnotesize,emph={label}}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%  Design
@@ -22,24 +16,75 @@
 	
 	\input{./include/header}
 	
-	\section{XYZ }
-		\subsection{ydfsfdg}
+	\section{KVC  }
+		\subsection{Source code for the address}
 		\begin{center}
-					 \includegraphics[width=1.1\textwidth]{./images/model/eifr-logo}
+					 \includegraphics[width=1\textwidth]{./images/srcKVC.png}
 		\end{center}
-		
-		\section{ Program,  Intel  Processor }
-			\subsection{Time measurement}
-		\begin{lstlisting} 
-static __inline__ unsigned long long rdtsc(void)
-{
-  unsigned long long int x;
-     __asm__ volatile (".byte 0x0f, 0x31" : "=A" (x));
-     return x;
-}
-		\end{lstlisting}
-		We have measured the time with this function and the proposed method of this curse . 
-		
-
+		\subsection{Output }
+				\begin{center}
+							 \includegraphics[width=1\textwidth]{./images/resultKVC.png}
+				\end{center}
+		\section{ KVO }
+			\subsection{M file of the address with the int and numberDouble}	
+				\begin{center}
+				\includegraphics[scale=0.8]{./images/srcAddress.png}
+				\end{center}
+				The numberDouble is a calculated value so we have to raise ``manually `` the notifications.
+			\subsection{H file of the address with the int and numberDouble}	
+				\begin{center}
+				 \includegraphics[scale=0.8]{./images/srcAddressH.png}
+				\end{center}
+			\subsection{UI with 2 text-field and a button}	
+				\begin{center}
+					\includegraphics[width=1\textwidth]{./images/createGraphic.png}
+				\end{center}
+				Here we see the creation and links in \textbf{Interface builder}
+			\subsection{Setting value of text fields}	
+					\begin{center}
+						\includegraphics[scale=0.8]{./images/displayValue.png}
+					\end{center}
+				At the load of the application we set the value that will be displayed\\
+				The conversion form int to string was found on this website: http://stackoverflow.com/questions/169925/how-to-do-string-conversions-in-objective-c
+			\subsection{Result after loading}	
+					\begin{center}
+						\includegraphics[scale=0.3]{./images/resutl1KVO.png}
+					\end{center}
+			\subsection{Registering and receiving the KVO notification in the employee class }
+			\begin{center}
+						\includegraphics[scale=0.8]{./images/regrec.png}
+			\end{center}
+			We are responsible to unsubscribe the notification in the dealloc method. 
+			\subsection{Result of the execution}
+			\begin{center}
+						\includegraphics[scale=0.6]{./images/result2KVO.png}
+			\end{center}
+			1 .For this tests , we change at first the street value then press set\\
+			2 The we change the number value and press set\\
+			3 Finally we change both value and press set\\
+			
+			We tried to call just the didChangeValueForKey  in the setNumber method of the  address class.But the notification doesn't work without both call wil and didChangeValueForKey.
+			
+				\section{ Notifications }
+						\subsection{M file of the company class}	
+							\begin{center}
+							\includegraphics[scale=0.8]{./images/cmpSrc.png}
+							\end{center}
+						Here we have added an observer and the callback function to recive the specific information.
+						
+				\subsection{Raising notification }	
+					\begin{center}
+						 \includegraphics[scale=0.8]{./images/notCall.png}
+					\end{center}
+					In the address class when we change the value of the street we have to post a notification
+					\subsection{Result }	
+						\begin{center}
+				 \includegraphics[scale=0.8]{./images/reslutNot.png}
+						\end{center}
+						The result in the console.
 				
+				\section{Conclusion}	
+				KVC is very powerful but we have had some problem with the spelling of variable name. And this errors was not detected at the compilation time but at the run time.\\
+				All the sources and documentation is available on gitHub at this address: \\ https://github.com/eia-fr/mobileDev/tree/master/TD3
+
 \end{document}
