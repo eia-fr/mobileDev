@@ -1,0 +1,45 @@
+\documentclass[a4paper,10pt]{article}
+
+\include{./include/pkg}
+\usepackage{listings}
+%\lstset{
+%language=C,
+%basicstyle=\small\sffamily,
+%numbers=left,
+%numberstyle=\tiny,
+%frame=tb,
+%columns=fullflexible,
+%showstringspaces=false
+%}
+\lstset{language=C,captionpos=b,tabsize=3,frame=lines,keywordstyle=\color{blue},commentstyle=\color{darkgreen},stringstyle=\color{red},numbers=left,numberstyle=\tiny,numbersep=5pt,breaklines=true,showstringspaces=false,basicstyle=\footnotesize,emph={label}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Design
+%%\input{./include/header}
+
+\begin{document}
+	\input{./include/titles}
+	
+	\input{./include/header}
+	
+	\section{XYZ }
+		\subsection{ydfsfdg}
+		\begin{center}
+					 \includegraphics[width=1.1\textwidth]{./images/model/eifr-logo}
+		\end{center}
+		
+		\section{ Program,  Intel  Processor }
+			\subsection{Time measurement}
+		\begin{lstlisting} 
+static __inline__ unsigned long long rdtsc(void)
+{
+  unsigned long long int x;
+     __asm__ volatile (".byte 0x0f, 0x31" : "=A" (x));
+     return x;
+}
+		\end{lstlisting}
+		We have measured the time with this function and the proposed method of this curse . 
+		
+
+				
+\end{document}
