@@ -1,0 +1,56 @@
+TPersistence_File
+v7
+r1
+cCheck dependencies
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib
+c000000004CDA93A40000000000004E95
+t1289393060
+s20117
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib
+c000000004CDAAFB80000000000008AF8
+t1289400248
+s35576
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app/Contents/Info.plist
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app/Contents/PkgInfo
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app/Contents/Resources/Persistence_FileViewController.nib
+t2
+s0
+
+NPersistence_File-Info.plist
+c000000004CDA93A4000000000000038D
+t1289393060
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311324743#311324743#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.0'1(4@58"error: There is no SDK with the name or path 'iphoneos4.0'311324743#18446744073709551615#0#0(1@0"0(0#1#0"8625462368#0"0#
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib"
+r0
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib"
+r0
+
+CProcessInfoPlistFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app/Contents/Info.plist" Persistence_File-Info.plist
+r0
+
+CTouch "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persitence-demos-exercices/Cours8-Persistence iPhone/Persistence_File/build/Debug/Persistence_File.app"
+r0
+

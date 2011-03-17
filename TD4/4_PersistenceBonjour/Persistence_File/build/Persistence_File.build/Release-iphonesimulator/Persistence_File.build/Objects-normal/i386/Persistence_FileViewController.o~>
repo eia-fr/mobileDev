@@ -1,0 +1,5 @@
+/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m: In function '-[Persistence_FileViewController filePath]':
+/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: 'paths' undeclared (first use in this function)
+/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: (Each undeclared identifier is reported only once
+/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: for each function it appears in.)
+/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:20: error: 'theCompletePath' undeclared (first use in this function)

@@ -1,0 +1,426 @@
+TPersistence_File
+v7
+r0
+t322012934.299432
+cCheck dependencies
+cProcessInfoPlistFile "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist" Persistence_File-Info.plist
+cCompileXIB "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib"
+cCompileXIB "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib"
+cProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.h
+c000000004CDAA02D000000000000021B
+t1289396269
+s539
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m
+c000000004CDAA04000000000000002CC
+t1289396288
+s716
+i"Persistence_FileAppDelegate.h"
+i"Persistence_FileViewController.h"
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.h
+c000000004CDAAF0A0000000000000208
+t1289400074
+s520
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m
+c000000004D814FBC00000000000005A1
+t1300320188
+s1441
+i"Persistence_FileViewController.h"
+i"Person.h"
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.h
+c000000004CDAAFA500000000000002A3
+t1289400229
+s675
+i<Foundation/Foundation.h>
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m
+c000000004D814EDF0000000000000657
+t1300319967
+s1623
+i"Person.h"
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib
+c000000004CDA93A40000000000004E95
+t1289393060
+s20117
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib
+c000000004CDAAFB80000000000008AF8
+t1289400248
+s35576
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_File_Prefix.pch
+c000000004CDA93A400000000000000C9
+t1289393060
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_File.LinkFileList
+c000000004D814F8300000000000002DF
+t1300320131
+s735
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o
+t1300320134
+s49556
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o
+t2
+s0
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o
+t2
+s0
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o
+t1300320134
+s6348
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app
+t1300320132
+s204
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app.dSYM
+t2
+s0
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist
+t1300320131
+s630
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/MainWindow.nib
+t1300320131
+s1141
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File
+t2
+s0
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_FileViewController.nib
+t1300320132
+s3148
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/PkgInfo
+t1300320131
+s8
+
+N/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m
+c000000004CDA93A40000000000000177
+t1289393060
+s375
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.h
+c000000004CDAA02D000000000000021B
+t1289396269
+s539
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m
+c000000004CDAA04000000000000002CC
+t1289396288
+s716
+i"Persistence_FileAppDelegate.h"
+i"Persistence_FileViewController.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.h
+c000000004CDAAF0A0000000000000208
+t1289400074
+s520
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m
+c000000004CDE41930000000000000684
+t1289634195
+s1668
+i"Persistence_FileViewController.h"
+i"Person.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.h
+c000000004CDAAFA500000000000002A3
+t1289400229
+s675
+i<Foundation/Foundation.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m
+c000000004CDE462C0000000000000792
+t1289635372
+s1938
+i"Person.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib
+c000000004CDA93A40000000000004E95
+t1289393060
+s20117
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib
+c000000004CDAAFB80000000000008AF8
+t1289400248
+s35576
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch
+c000000004CDA93A400000000000000C9
+t1289393060
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_File.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app.dSYM
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/MainWindow.nib
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_FileViewController.nib
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/PkgInfo
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m
+c000000004CDA93A40000000000000177
+t1289393060
+s375
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-euypikuuskinvkcbutomhlwzbydb/Persistence_File_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch.gch
+t1300320133
+s15113424
+
+NPersistence_File-Info.plist
+c000000004CDE38DC000000000000038A
+t1289631964
+s906
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322012931#322012931#0(0"0(0#1#0"8691472864#0"0#
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012934.061466
+e322012934.245683
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m322012934#322012934#0(0"0(0#0#105"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m8698078048#2548"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/include" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources/i386" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch -c "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileAppDelegate.m" -o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileAppDelegate.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012934.236132
+e322012934.293964
+r0
+xCompileC
+xbuild/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m: In function '-[Persistence_FileViewController filePath]':
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: 'paths' undeclared (first use in this function)
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: (Each undeclared identifier is reported only once
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: for each function it appears in.)
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:20: error: 'theCompletePath' undeclared (first use in this function)
+lSLF07#2@116"Compile /Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m322012934#322012934#0(838"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m: In function '-[Persistence_FileViewController filePath]':/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: 'paths' undeclared (first use in this function)/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: (Each undeclared identifier is reported only once/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:19: error: for each function it appears in.)/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m:20: error: 'theCompletePath' undeclared (first use in this function)2(4@47"'paths' undeclared (first use in this function)322012934#168#168#0(6@108"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m322012898#19#0#19#0#43"'*' undeclared (first use in this function)0(4@57"'theCompletePath' undeclared (first use in this function)322012934#660#178#0(6@108"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m322012898#20#0#20#0#43"'*' undeclared (first use in this function)0(0#0#108"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m8661049568#2554"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/include" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources/i386" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch -c "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Persistence_FileViewController.m" -o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o"1#
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Persistence_FileViewController.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012934.245789
+e322012934.299356
+r0
+xCompileC
+xbuild/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m: In function '-[Person saveToFile:]':
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: 'path' undeclared (first use in this function)
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: (Each undeclared identifier is reported only once
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: for each function it appears in.)
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:48: error: 'stringToBeSaved' undeclared (first use in this function)
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:42: warning: unused variable 'concatenatedPerson'
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m: In function '-[Person restoreFromFile:]':
+o/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:60: error: 'stringToBeRestored' undeclared (first use in this function)
+lSLF07#2@92"Compile /Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m322012934#322012934#0(1116"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m: In function '-[Person saveToFile:]':/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: 'path' undeclared (first use in this function)/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: (Each undeclared identifier is reported only once/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:47: error: for each function it appears in.)/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:48: error: 'stringToBeSaved' undeclared (first use in this function)/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:42: warning: unused variable 'concatenatedPerson'/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m: In function '-[Person restoreFromFile:]':/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m:60: error: 'stringToBeRestored' undeclared (first use in this function)4(4@46"'path' undeclared (first use in this function)322012934#123#143#0(6@84"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m322012767#47#0#47#0#43"'*' undeclared (first use in this function)0(4@57"'stringToBeSaved' undeclared (first use in this function)322012934#542#154#0(6@84"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m322012767#48#0#48#0#43"'*' undeclared (first use in this function)0(22@36"Unused variable 'concatenatedPerson'322012934#696#135#0(6@84"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m322012767#42#0#42#0#19"unused variable '*'0(4@60"'stringToBeRestored' undeclared (first use in this function)322012934#959#157#0(6@84"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m322012767#60#0#60#0#43"'*' undeclared (first use in this function)0(0#0#84"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m8654499936#2506"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/include" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources/i386" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch -c "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Classes/Person.m" -o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o"1#
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/Person.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012934.060363
+e322012934.235305
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m322012934#322012934#0(0"0(0#0#74"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m8691873280#2494"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/include" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources/i386" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch -c "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/main.m" -o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Objects-normal/i386/main.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib"
+s322012931.100639
+e322012931.557063
+r1
+xCompileXIB
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322012931#322012931#0(0"0(0#0#82"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib8695905376#674"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/MainWindow.nib" "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib"
+s322012931.119268
+e322012932.212370
+r1
+xCompileXIB
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib
+lSLF07#2@45"CompileXIB Persistence_FileViewController.xib322012931#322012932#0(0"0(0#0#102"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib8699948960#714"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_FileViewController.nib" "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_FileViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib"
+r0
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib"
+r0
+
+CGenerateDSYMFile "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app.dSYM" "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File"
+r0
+
+CGenerateDSYMFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app.dSYM" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File"
+r0
+
+CLd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File" normal i386
+r0
+
+CLd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Persistence_File" normal i386
+r0
+
+CProcessInfoPlistFile "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist" Persistence_File-Info.plist
+s322012931.075116
+e322012931.100535
+r1
+xProcessInfoPlistFile
+x/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist
+xPersistence_File-Info.plist
+lSLF07#2@35"Process Persistence_File-Info.plist322012931#322012931#0(0"0(0#0#95"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_File-Info.plist8698752032#603"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Persistence_File-Info.plist -genpkginfo "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app/Info.plist" Persistence_File-Info.plist
+r0
+
+CProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-euypikuuskinvkcbutomhlwzbydb/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322012932.212569
+e322012934.060093
+r1
+xProcessPCH
+x/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch.gch
+xPersistence_File_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile Persistence_File_Prefix.pch322012932#322012934#0(0"0(0#0#95"/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_File_Prefix.pch8692167744#2344"    cd "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/include" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources/i386" "-I/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Persistence_File.build/Release-iphonesimulator/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/Persistence_File_Prefix.pch" -o /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-fmnjbrbjvvphxpedxckmnkwdomfk/Persistence_File_Prefix.pch.gch0#
+
+CTouch "/Data-Wagen/EIA-FR/EIA-FR 10-11/I32011/4_MobileDev/Persistence_File/build/Release-iphonesimulator/Persistence_File.app"
+r0
+
+CTouch "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphonesimulator/Persistence_File.app"
+r0
+

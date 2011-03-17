@@ -1,0 +1,495 @@
+TPersistence_File
+v7
+r0
+t322006082.750040
+cCheck dependencies
+cCpResource build/Release-iphoneos/Persistence_File.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Info.plist" Persistence_File-Info.plist
+cCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib"
+cCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib"
+cProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/main.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileAppDelegate.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileViewController.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Person.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/main.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File" normal armv6
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileAppDelegate.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileViewController.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Person.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File" normal armv7
+cCreateUniversalBinary "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File" normal "armv6 armv7"
+cGenerateDSYMFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app.dSYM" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File"
+cProcessProductPackaging "/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision"
+cTouch "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent"
+cCodeSign "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+cValidate "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.h
+c000000004CDAA02D000000000000021B
+t1289396269
+s539
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m
+c000000004CDAA04000000000000002CC
+t1289396288
+s716
+i"Persistence_FileAppDelegate.h"
+i"Persistence_FileViewController.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.h
+c000000004CDAAF0A0000000000000208
+t1289400074
+s520
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m
+c000000004CDE41930000000000000684
+t1289634195
+s1668
+i"Persistence_FileViewController.h"
+i"Person.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.h
+c000000004CDAAFA500000000000002A3
+t1289400229
+s675
+i<Foundation/Foundation.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m
+c000000004CDE462C0000000000000792
+t1289635372
+s1938
+i"Person.h"
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib
+c000000004CDA93A40000000000004E95
+t1289393060
+s20117
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib
+c000000004CDAAFB80000000000008AF8
+t1289400248
+s35576
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch
+c000000004CDA93A400000000000000C9
+t1289393060
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File
+t1300313281
+s24648
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File.LinkFileList
+c000000004D8134BE000000000000040B
+t1300313278
+s1035
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileAppDelegate.o
+t1300313280
+s49852
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileViewController.o
+t1300313280
+s47076
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Person.o
+t1300313280
+s16316
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/main.o
+t1300313280
+s6732
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File
+t1300313281
+s24588
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File.LinkFileList
+c000000004D8134BE000000000000040B
+t1300313278
+s1035
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileAppDelegate.o
+t1300313281
+s49848
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileViewController.o
+t1300313281
+s46928
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Person.o
+t1300313281
+s16164
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/main.o
+t1300313281
+s6708
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent
+t1300313281
+s432
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app
+t1300313281
+s374
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app.dSYM
+t1300313281
+s102
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Info.plist
+t1300313278
+s820
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/MainWindow.nib
+t1300313279
+s1141
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File
+t1300313281
+s57356
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_FileViewController.nib
+t1300313279
+s3149
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/PkgInfo
+t1300313278
+s8
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/ResourceRules.plist
+t1300313278
+s485
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision
+t1300313281
+s7179
+
+N/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m
+c000000004CDA93A40000000000000177
+t1289393060
+s375
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision
+c000000004D47081C0000000000001C0B
+t1296500764
+s7179
+
+N/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch.gch
+t1300313280
+s9783000
+
+N/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch.gch
+t1300313280
+s10249944
+
+NPersistence_File-Info.plist
+c000000004CDE38DC000000000000038A
+t1289631964
+s906
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322006078#322006078#0(0"0(0#1#0"8653561696#0"0#
+
+CCodeSign "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+s322006081.676810
+e322006081.967313
+r1
+xCodeSign
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app
+lSLF07#2@52"CodeSign build/Release-iphoneos/Persistence_File.app322006081#322006081#0(0"0(0#0#192"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app8661835744#1145"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Fred Wagen (53UF3RP59V)" "--resource-rules=/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/ResourceRules.plist" --entitlements "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileAppDelegate.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322006080.707727
+e322006080.862360
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileAppDelegate.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@194"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m322006080#322006080#0(0"0(0#0#186"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m8662750592#3232"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv6" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileAppDelegate.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileViewController.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322006080.850865
+e322006080.970250
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileViewController.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@197"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m322006080#322006080#0(0"0(0#0#189"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m8661052448#3238"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv6" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_FileViewController.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Person.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322006080.862473
+e322006080.984356
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Person.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@173"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m322006080#322006081#0(0"0(0#0#165"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m8659742464#3190"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv6" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Person.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/main.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322006080.706558
+e322006080.850759
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/main.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@163"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m322006080#322006080#0(0"0(0#0#155"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m8659674016#3178"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv6" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileAppDelegate.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322006081.052676
+e322006081.139777
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileAppDelegate.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@194"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m322006081#322006081#0(0"0(0#0#186"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m8662089408#3232"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv7" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileAppDelegate.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileAppDelegate.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileViewController.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322006081.139892
+e322006081.245151
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileViewController.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@197"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m322006081#322006081#0(0"0(0#0#189"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m8661440960#3238"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv7" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Persistence_FileViewController.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_FileViewController.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Person.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322006081.245257
+e322006081.343769
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Person.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@173"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m322006081#322006081#0(0"0(0#0#165"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m8656731104#3190"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv7" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Classes/Person.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Person.o"0#
+
+CCompileC build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/main.o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322006080.970356
+e322006081.052550
+r1
+xCompileC
+xbuild/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/main.o
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@163"Compile /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m322006080#322006081#0(0"0(0#0#155"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m8654454400#3178"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv7" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/main.m" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib"
+s322006078.588710
+e322006079.250705
+r1
+xCompileXIB
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322006078#322006079#0(0"0(0#0#163"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib8655829696#889"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/MainWindow.nib" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib"
+s322006078.589719
+e322006079.500645
+r1
+xCompileXIB
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib
+lSLF07#2@45"CompileXIB Persistence_FileViewController.xib322006078#322006079#0(0"0(0#0#183"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib8661386144#929"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_FileViewController.nib" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_FileViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Release-iphoneos/Persistence_File.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s322006078.494206
+e322006078.588608
+r1
+xCpResource
+xbuild/Release-iphoneos/Persistence_File.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist322006078#322006078#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8661968032#750"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"0#
+
+CCreateUniversalBinary "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File" normal "armv6 armv7"
+s322006081.556662
+e322006081.578104
+r1
+xCreateUniversalBinary
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File
+xnormal
+xarmv6 armv7
+lSLF07#2@103"CreateUniversalBinary build/Release-iphoneos/Persistence_File.app/Persistence_File normal "armv6 armv7"322006081#322006081#0(0"0(0#0#160"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/armv6 armv78661667488#1044"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File" -output "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File"0#
+
+CGenerateDSYMFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app.dSYM" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File"
+s322006081.578206
+e322006081.606204
+r1
+xGenerateDSYMFile
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app.dSYM
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File
+lSLF07#2@126"GenerateDSYMFile build/Release-iphoneos/Persistence_File.app.dSYM build/Release-iphoneos/Persistence_File.app/Persistence_File322006081#322006081#0(0"0(0#0#209"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File8660778016#729"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Persistence_File" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app.dSYM"0#
+
+CLd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File" normal armv6
+s322006080.984461
+e322006081.404873
+r1
+xLd
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File
+xnormal
+xarmv6
+lSLF07#2@260"Link /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File322006081#322006081#0(0"0(0#0#0"8662157824#1481"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" -filelist "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv6/Persistence_File"0#
+
+CLd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File" normal armv7
+s322006081.343875
+e322006081.556563
+r1
+xLd
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File
+xnormal
+xarmv7
+lSLF07#2@260"Link /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File322006081#322006081#0(0"0(0#0#0"8651340192#1481"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" -filelist "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Objects-normal/armv7/Persistence_File"0#
+
+CProcessInfoPlistFile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Info.plist" Persistence_File-Info.plist
+s322006078.496356
+e322006078.538100
+r1
+xProcessInfoPlistFile
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Info.plist
+xPersistence_File-Info.plist
+lSLF07#2@35"Process Persistence_File-Info.plist322006078#322006078#0(0"0(0#0#176"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File-Info.plist8661881280#1052"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Persistence_File-Info.plist -genpkginfo "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/ResourceRules.plist" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/Info.plist"0#
+
+CProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322006079.500768
+e322006080.632140
+r1
+xProcessPCH
+x/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch.gch
+xPersistence_File_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile Persistence_File_Prefix.pch322006079#322006080#0(0"0(0#0#176"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch8661728096#2953"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv6" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch" -o /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-bkyuqoamvupqtsantvattwrebedx/Persistence_File_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch.gch Persistence_File_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322006079.501721
+e322006080.706441
+r1
+xProcessPCH
+x/var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch.gch
+xPersistence_File_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile Persistence_File_Prefix.pch322006079#322006080#0(0"0(0#0#176"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch8660735456#2953"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-generated-files.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-own-target-headers.hmap" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-all-target-headers.hmap" -iquote "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File-project-headers.hmap" "-F/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/include" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources/armv7" "-I/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/Persistence_File_Prefix.pch" -o /var/folders/Ya/YauyEN-cEpK1j8mhSDIycE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Persistence_File_Prefix-gqkuaiigraiqmmddmututlkhulja/Persistence_File_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision" "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision"
+s322006081.606318
+e322006081.645571
+r1
+xProcessProductPackaging
+x/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision" build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision322006081#322006081#0(0"0(0#0#217"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision8657679040#658"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/wagen/Library/MobileDevice/Provisioning Profiles/1D5D8DFB-7206-44A5-9A21-F2AF12F685F2.mobileprovision" -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent"
+s322006081.648719
+e322006081.676729
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent
+lSLF07#2@204"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent322006081#322006081#0(0"0(0#0#240"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent8644315072#685"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Persistence_File.build/Release-iphoneos/Persistence_File.build/Persistence_File.xcent"0#
+
+CTouch "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+s322006081.645654
+e322006081.648624
+r1
+xTouch
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app
+lSLF07#2@198"Touch /Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app322006081#322006081#0(0"0(0#0#0"8653776704#499"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"0#
+
+CValidate "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"
+s322006081.967404
+e322006082.749770
+r1
+xValidate
+x/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app
+o2011-03-16 23:08:02.560 Validation[13591:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@52"Validate build/Release-iphoneos/Persistence_File.app322006081#322006082#0(343"2011-03-16 23:08:02.560 Validation[13591:607] *** Warning: Defaulting to the standard codesign toolwarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(22@187" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)322006082#18446744073709551615#0#0(6@0"322006082#0#0#0#0#0"0(0#0#192"/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app8662052320#608"    cd "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Data-Wagen/Master-HES/2010-11_MSE_Admin_lectures/AMS_2010-11/Présentations AMS 2010/Cours8-Persistence/Cours8-Persistence iPhone/Persistence_File/build/Release-iphoneos/Persistence_File.app"0#
+
