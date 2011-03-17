@@ -1,341 +1,0 @@
-TTD3
-v7
-r0
-t321825454.695444
-cCheck dependencies
-cProcessInfoPlistFile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/Info.plist TD3-Info.plist
-cCompileXIB /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib
-cCompileXIB /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib
-cProcessPCH /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch.gch TD3_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/main.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3AppDelegate.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3ViewController.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Address.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Company.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Employee.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.h
-c000000004D78E1F2000000000000014F
-t1299767794
-s335
-i<Foundation/Foundation.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m
-c000000004D78E0A700000000000001A2
-t1299767463
-s418
-i"Address.h"
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.h
-c000000004D78D2F40000000000000136
-t1299763956
-s310
-i<Foundation/Foundation.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m
-c000000004D78E421000000000000019A
-t1299768353
-s410
-i"Company.h"
-i"Employee.h"
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.h
-c000000004D78D2110000000000000134
-t1299763729
-s308
-i<Foundation/Foundation.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m
-c000000004D78D3650000000000000193
-t1299764069
-s403
-i"Employee.h"
-i"Address.h"
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.h
-c000000004D7E716600000000000001BC
-t1300132198
-s444
-i<UIKit/UIKit.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m
-c000000004D7E71660000000000000A76
-t1300132198
-s2678
-i"TD3AppDelegate.h"
-i"TD3ViewController.h"
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.h
-c000000004D7E72060000000000000169
-t1300132358
-s361
-i<UIKit/UIKit.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m
-c000000004D7E722C0000000000000ABB
-t1300132396
-s2747
-i"TD3ViewController.h"
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib
-c000000004D7E71660000000000004DF9
-t1300132198
-s19961
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib
-c000000004D7E73230000000000006036
-t1300132643
-s24630
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3_Prefix.pch
-c000000004D7E716600000000000000AF
-t1300132198
-s175
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app
-t2
-s0
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app.dSYM
-t2
-s0
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/Info.plist
-t1300132653
-s575
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/MainWindow.nib
-t1300132653
-s1115
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/PkgInfo
-t1300132653
-s8
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/TD3
-t2
-s0
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/TD3ViewController.nib
-t1300132653
-s1840
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Address.o
-t1300132654
-s9516
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Company.o
-t1300132654
-s9020
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Employee.o
-t1300132654
-s9080
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3.LinkFileList
-c000000004D7E732D000000000000030F
-t1300132653
-s783
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3AppDelegate.o
-t1300132654
-s50804
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3ViewController.o
-t2
-s0
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/main.o
-t1300132654
-s6324
-
-N/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m
-c000000004D7E7166000000000000015A
-t1300132198
-s346
-i<UIKit/UIKit.h>
-
-N/var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch.gch
-t1300132654
-s15453392
-
-NTD3-Info.plist
-c000000004D7E7166000000000000038D
-t1300132198
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321825453#321825453#0(0"0(0#1#0"8247620834010738688#0"0#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Address.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.529487
-e321825454.643795
-r1
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Address.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m321825454#321825454#0(0"0(0#0#67"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m8605120640#2031"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Address.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Address.o0#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Company.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.609922
-e321825454.674138
-r1
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Company.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m321825454#321825454#0(0"0(0#0#67"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m8610976992#2031"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Company.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Company.o0#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Employee.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.637308
-e321825454.695334
-r1
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Employee.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m321825454#321825454#0(0"0(0#0#68"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m8608009312#2033"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/Employee.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/Employee.o0#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3AppDelegate.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.526192
-e321825454.655167
-r1
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3AppDelegate.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m321825454#321825454#0(0"0(0#0#74"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m8606174432#2045"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3AppDelegate.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3AppDelegate.o0#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3ViewController.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.527834
-e321825454.609688
-r0
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3ViewController.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m: In function '-[TD3ViewController viewDidLoad]':
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:35: warning: receiver 'Company' is a forward class and corresponding @interface may not exist
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: 'Employee' undeclared (first use in this function)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: (Each undeclared identifier is reported only once
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: for each function it appears in.)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: 'employee' undeclared (first use in this function)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: no '-employee' method found
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: (Messages without a matching method signature
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: will be assumed to return 'id' and accept
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: '...' as arguments.)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:37: error: 'Address' undeclared (first use in this function)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:37: error: 'address' undeclared (first use in this function)
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:45: error: request for member 'employee' in something not a structure or union
-o/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:46: error: request for member 'employee' in something not a structure or union
-lSLF07#2@85"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825454#321825454#0(1934"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m: In function '-[TD3ViewController viewDidLoad]':/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:35: warning: receiver 'Company' is a forward class and corresponding @interface may not exist/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: 'Employee' undeclared (first use in this function)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: (Each undeclared identifier is reported only once/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: for each function it appears in.)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: error: 'employee' undeclared (first use in this function)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: no '-employee' method found/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: (Messages without a matching method signature/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: will be assumed to return 'id' and accept/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:36: warning: '...' as arguments.)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:37: error: 'Address' undeclared (first use in this function)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:37: error: 'address' undeclared (first use in this function)/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:45: error: request for member 'employee' in something not a structure or union/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m:46: error: request for member 'employee' in something not a structure or union9(22@80"Receiver 'Company' is a forward class and corresponding @interface may not exist321825454#127#172#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#35#0#35#0#0"0(4@50"'Employee' undeclared (first use in this function)321825454#299#140#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#36#0#36#0#43"'*' undeclared (first use in this function)0(4@50"'employee' undeclared (first use in this function)321825454#701#140#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#36#0#36#0#43"'*' undeclared (first use in this function)0(22@27"No '-employee' method found321825454#841#119#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#36#0#36#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321825454#960#137#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#36#0#36#0#0"0(4@49"'Address' undeclared (first use in this function)321825454#1342#139#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#37#0#37#0#43"'*' undeclared (first use in this function)0(4@49"'address' undeclared (first use in this function)321825454#1481#139#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#37#0#37#0#43"'*' undeclared (first use in this function)0(4@67"Request for member 'employee' in something not a structure or union321825454#1620#157#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#45#0#45#0#0"0(4@67"Request for member 'employee' in something not a structure or union321825454#1777#157#0(6@77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m321825196#46#0#46#0#0"0(0#0#77"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m8605611168#2051"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/Classes/TD3ViewController.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/TD3ViewController.o1#
-
-CCompileC build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/main.o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825454.524704
-e321825454.637153
-r1
-xCompileC
-xbuild/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/main.o
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m321825454#321825454#0(0"0(0#0#56"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m8606370144#2017"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -include /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/main.m -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib
-s321825453.112387
-e321825453.483007
-r1
-xCompileXIB
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321825453#321825453#0(0"0(0#0#64"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib8600726592#661"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/MainWindow.nib /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib
-s321825453.116673
-e321825453.529067
-r1
-xCompileXIB
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib
-lSLF07#2@32"CompileXIB TD3ViewController.xib321825453#321825453#0(0"0(0#0#71"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib8611662112#675"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/TD3ViewController.nib /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app.dSYM /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/TD3
-r0
-
-CLd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/TD3 normal i386
-r0
-
-CProcessInfoPlistFile /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/Info.plist TD3-Info.plist
-s321825453.077815
-e321825453.112293
-r1
-xProcessInfoPlistFile
-x/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/Info.plist
-xTD3-Info.plist
-lSLF07#2@22"Process TD3-Info.plist321825453#321825453#0(0"0(0#0#64"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3-Info.plist29555065834897524#562"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TD3-Info.plist -genpkginfo /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app/Info.plist0#
-
-CProcessPCH /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch.gch TD3_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s321825453.529305
-e321825454.524554
-r1
-xProcessPCH
-x/var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch.gch
-xTD3_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile TD3_Prefix.pch321825453#321825454#0(0"0(0#0#64"/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3_Prefix.pch8608178016#1902"    cd /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-generated-files.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-own-target-headers.hmap -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-all-target-headers.hmap -iquote /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/TD3-project-headers.hmap -F/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/include -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources/i386 -I/Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/TD3.build/Debug-iphonesimulator/TD3.build/DerivedSources -c /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/TD3_Prefix.pch -o /var/folders/YR/YRowQ3vgHcGf7R-sQwFjEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TD3_Prefix-fczwqobosuxhmoewaxuctbmaeiwu/TD3_Prefix.pch.gch0#
-
-CTouch /Users/eliasmedawar/Projet/mobileDev/TD3/code/TD3/build/Debug-iphonesimulator/TD3.app
-r0
-
