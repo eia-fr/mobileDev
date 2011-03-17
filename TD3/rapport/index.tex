@@ -16,6 +16,72 @@
 	
 	\input{./include/header}
 	
+	\section{Memory}
+		\subsection{Memory leaks}
+
+		By natively coding the requested methods and calling them without particular attention, different memory leaks will be created. Some of them are correctly recognized by the XCode Analyzer but some are not.
+		
+		The recognized leaks are represented in the images below:		
+		
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./images/printresult_leak.png}
+			Newly created string is not correctly released before exiting the method.
+		\end{center}		
+		
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./images/returnresult_leak.png}
+			Returned string should be autoreleased before exiting the method.
+		\end{center}
+		
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./images/object_leak.png}
+			The newly allocated object is never released.
+		\end{center}
+		
+		There are other cases where the Analayser was not able to detect a memory leak, such as in the following examples:
+		
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./images/string_noleak.png}
+			The analyzer assumes that the string returned by the returnString method has already been autoreleased, but it is not the case. 
+		\end{center}
+		
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./images/init_noleak.png}
+			The string created in the init method is never released because the object does not have a dealloc method.
+		\end{center}
+		
+		The correct -- leak free -- source code is represented below:
+		\begin{center}
+		\includegraphics[width=1\textwidth]{./images/object_ok.png}
+		\includegraphics[width=1\textwidth]{./images/caller_ok.png}
+		\end{center}
+		
+		Notice that the string returned by the returnString method is never retained and released on the caller part. This behaviour is still correct (although no a best-practice) and explained below.
+		
+		\subsection{Autorelease pools}
+			
+		When an object is autoreleased, it is registered to the innermost autorelease pool (in our case the pool created in the main method) and persisted in memory until the autorelease pool is not drained or released.
+		
+		In the previous example, this means that the autoreleased string returned by the returnString method is actually kept in memory until the autorelease pool is not released and can be used without an additional retain and release call on it.
+		
+		More information about this topic can be found on the online help at the following URL: \url{http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/MemoryMgmt/Articles/mmAutoreleasePools.html}.
+		
+		\subsection{Retain/release}
+		
+		By adding different retain/release called, we observed the following behavior:
+		
+		\begin{itemize}
+			\item The first method call on a released object normally works, the second one causes a EXC\_BAD\_ACCESS error.
+			\item The same holds true even if sleeping 5 seconds after the object release.
+			\item The retainCount on a released object is 1 event when it should be 0 (we were able to retrieve this value thanks to the property above):
+			
+			\includegraphics[scale=0.5]{./images/retain_count.png}
+			
+			\item It is possible to call the retain method on a just released object but the result is not guaranteed. Sometimes the object is kept in memory but sometimes an EXC\_BAD\_ACCESS error is raised upon the next call.
+		\end{itemize}
+		
+		By observing the behaviors above, we can conclude that the object is not releaed immediately when its retain count reaches 0 but we were not able to confirm the exact behavior (the documentation and the web-searches led to no results) of the memory releasing process. Anyway, it is not safe to rely on such edge-cases and not-guaranteed behaviors in our code and the common-sense dictates to not use an object after it was released (and -- for extra safety -- to set it to null after the call to release).
+		
 	\section{KVC  }
 		\subsection{Source code in address for the KVC  ''request'' }
 		\begin{center}
