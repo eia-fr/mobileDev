@@ -14,11 +14,11 @@
 - (NSString *) filePath
 {
 // You can use this method if you want (but you have to code it or remove it)
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+                                                         NSUserDomainMask, YES);
+    NSString *path = [[paths objectAtIndex: 0] stringByAppendingPathComponent: @"person"];
 	
-	
-	NSLog(@"paths:  %@",paths);
-	NSLog(@"theCompletePath:  %@",theCompletePath);
-	return theCompletePath;
+    return path;
 }
 
 

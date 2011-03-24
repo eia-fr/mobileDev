@@ -41,23 +41,22 @@
 	NSLog(@"aFilePath:  %@",aFilePath);
 	NSString *concatenatedPerson = [NSString stringWithFormat: @"%@|%@|%f|%d", name, [[self dateFormatter] stringFromDate: birthDate], weight, married];
 
-// Save in a file (your code)
+    // Save in a file (your code)
+    
+    [concatenatedPerson writeToFile: aFilePath atomically: YES encoding: NSUTF8StringEncoding error: NULL];
 	
-	
-	NSLog(@"path:  %@",path);
-	NSLog(@"stringToBeSaved :  %@",stringToBeSaved);
-
-	
+	NSLog(@"path:  %@", aFilePath);
+	NSLog(@"stringToBeSaved :  %@", concatenatedPerson);
 }
 
 
 - (void) restoreFromFile: (NSString *)aFilePath
-{
-	// Restore from your file (your code) to the NSString stringToBeRestored
-
+{   
+	// Restore from your file (your code) to the NSString stringToBeRestored	
+    NSString *concatenatedPerson = [NSString stringWithContentsOfFile: aFilePath encoding: NSUTF8StringEncoding error: NULL];
 	
-	
-	NSString *concatenatedPerson=stringToBeRestored;
+    NSLog(@"concatenatedPerson:  %@", concatenatedPerson);
+    
 	NSArray *personComponents = [concatenatedPerson componentsSeparatedByString: @"|"];
 	
 	[self setName: [personComponents objectAtIndex: 0]];

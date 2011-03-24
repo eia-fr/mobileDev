@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Memory}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Memory leaks}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Autorelease pools}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Retain/release}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{KVC }{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Source code in address for the KVC ''request'' }{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Output }{section.2}% 7
+\BOOKMARK [1][-]{section.3}{ KVO }{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{M file of the address with the int and numberDouble}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{H file of the address with the int and numberDouble}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{UI with 2 text-field and a button}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Setting value of text fields}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Result after loading}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.6}{Registering and receiving the KVO notification in the employee class }{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.7}{Result of the execution}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{ Notifications }{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{M file of the company class}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Raising notification }{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Result }{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 20
