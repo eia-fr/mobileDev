@@ -110,7 +110,7 @@
     [self updateStatus:@"Server started"];
 	
 	//Start advertising to clients, passing nil for the name to tell Bonjour to pick use default name
-	if(![_server enableBonjourWithDomain:@"local" applicationProtocol:[TCPServer bonjourTypeFromIdentifier:kGameIdentifier] name:@"_I3_CHAT"]) {
+	if(![_server enableBonjourWithDomain:@"local" applicationProtocol:[TCPServer bonjourTypeFromIdentifier:kGameIdentifier] name:nil]) {
 		[self _showAlert:@"Failed advertising server"];
 		return;
 	}

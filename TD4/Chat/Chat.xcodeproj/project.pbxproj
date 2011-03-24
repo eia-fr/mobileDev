@@ -18,10 +18,10 @@
 		DB56ADC813325A540085FAFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56ADC713325A540085FAFA /* SecondViewController.m */; };
 		DB56ADCB13325A540085FAFA /* ContactsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB56ADC913325A540085FAFA /* ContactsView.xib */; };
 		DB56ADCE13325A540085FAFA /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB56ADCC13325A540085FAFA /* ChatView.xib */; };
-		DB56ADDD13325A950085FAFA /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56ADDC13325A950085FAFA /* TCPServer.m */; };
 		DB6083CF133B3B7100DA7EDC /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6083CD133B3B7100DA7EDC /* SettingsView.m */; };
 		DB6083D0133B3B7100DA7EDC /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6083CE133B3B7100DA7EDC /* SettingsView.xib */; };
 		DB6083E4133B4E3200DA7EDC /* BrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6083E2133B4E3200DA7EDC /* BrowserView.m */; };
+		DB6083E8133B5A7200DA7EDC /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6083E7133B5A7200DA7EDC /* TCPServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,13 +42,13 @@
 		DB56ADC713325A540085FAFA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DB56ADCA13325A540085FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContactsView.xib; sourceTree = "<group>"; };
 		DB56ADCD13325A540085FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ChatView.xib; sourceTree = "<group>"; };
-		DB56ADDB13325A950085FAFA /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPServer.h; path = ../../../../../../Downloads/WiTap/Networking/TCPServer.h; sourceTree = "<group>"; };
-		DB56ADDC13325A950085FAFA /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCPServer.m; path = ../../../../../../Downloads/WiTap/Networking/TCPServer.m; sourceTree = "<group>"; };
 		DB6083CC133B3B7100DA7EDC /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
 		DB6083CD133B3B7100DA7EDC /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
 		DB6083CE133B3B7100DA7EDC /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
 		DB6083E1133B4E3200DA7EDC /* BrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserView.h; sourceTree = "<group>"; };
 		DB6083E2133B4E3200DA7EDC /* BrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserView.m; sourceTree = "<group>"; };
+		DB6083E6133B5A7200DA7EDC /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		DB6083E7133B5A7200DA7EDC /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +129,8 @@
 		DB56ADDA13325A7D0085FAFA /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				DB56ADDB13325A950085FAFA /* TCPServer.h */,
-				DB56ADDC13325A950085FAFA /* TCPServer.m */,
+				DB6083E6133B5A7200DA7EDC /* TCPServer.h */,
+				DB6083E7133B5A7200DA7EDC /* TCPServer.m */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 				DB56ADBF13325A540085FAFA /* ChatAppDelegate.m in Sources */,
 				DB56ADC513325A540085FAFA /* FirstViewController.m in Sources */,
 				DB56ADC813325A540085FAFA /* SecondViewController.m in Sources */,
-				DB56ADDD13325A950085FAFA /* TCPServer.m in Sources */,
 				DB6083CF133B3B7100DA7EDC /* SettingsView.m in Sources */,
 				DB6083E4133B4E3200DA7EDC /* BrowserView.m in Sources */,
+				DB6083E8133B5A7200DA7EDC /* TCPServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

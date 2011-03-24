@@ -14,9 +14,23 @@
 @synthesize services;
 @synthesize netServiceBrowser;
 @synthesize controller;
+@synthesize currentResolve;
+@synthesize timer;
+
+- (void)stopCurrentResolve {
+	self.timer = nil;
+    
+	[self.currentResolve stop];
+	self.currentResolve = nil;
+}
 
 
 - (BOOL)searchForServicesOfType:(NSString *)type inDomain:(NSString *)domain {
+    [self.services release];
+    self.services = nil;
+    
+    self.services = [[NSMutableArray alloc] init];
+
     
     [self.controller updateStatus:@"Searching for services..."];
     
@@ -91,16 +105,18 @@
 - (void)netService:(NSNetService *)sender didNotResolve:(NSDictionary *)errorDict {
 	/*[self stopCurrentResolve];
 	[self.tableView reloadData];*/
+    NSLog(@"Not resolved");
 }
 
 - (void)netServiceDidResolveAddress:(NSNetService *)service {
-	/*assert(service == self.currentResolve);
+	assert(service == self.currentResolve);
 	
 	[service retain];
 	[self stopCurrentResolve];
 	
-	[self.delegate browserViewController:self didResolveInstance:service];
-	[service release];*/
+	//[self.delegate browserViewController:self didResolveInstance:service];
+	[service release];
+    NSLog(@"Resolved");
 }
 
 
@@ -268,13 +284,33 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+    
+    // If another resolve was running, stop it & remove the activity indicator from that cell
+	if (self.currentResolve) {
+		// Get the indexPath for the active resolve cell
+		NSIndexPath* indexPath = [NSIndexPath indexPathForRow:[self.services indexOfObject:self.currentResolve] inSection:0];
+		
+		// Stop the current resolve, which will also set self.needsActivityIndicator
+		[self stopCurrentResolve];
+		
+		// If we found the indexPath for the row, reload that cell to remove the activity indicator
+		if (indexPath.row != NSNotFound)
+			[self.tableView reloadRowsAtIndexPaths:[NSArray	arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationNone];
+	}
+ 	
+	// Then set the current resolve to the service corresponding to the tapped cell
+	self.currentResolve = [self.services objectAtIndex:indexPath.row];
+	[self.currentResolve setDelegate:self];
+    
+	// Attempt to resolve the service. A value of 0.0 sets an unlimited time to resolve it. The user can
+	// choose to cancel the resolve by selecting another service in the table view.
+	[self.currentResolve resolveWithTimeout:0.0];
+	
+	// Make sure we give the user some feedback that the resolve is happening.
+	// We will be called back asynchronously, so we don't want the user to think we're just stuck.
+	// We delay showing this activity indicator in case the service is resolved quickly.
+	self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(showWaiting:) userInfo:self.currentResolve repeats:NO];
+
 }
 
 @end
