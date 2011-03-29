@@ -22,6 +22,14 @@
     
 }
 
+- (BOOL)stopServer;
+- (BOOL)startServer;
+- (BOOL)startServerOnDomain:(NSString *)domain ofType:(NSString*)type withName:(NSString *)name;
+
+@property (retain) NSString *service;
+@property (retain) NSString *domain;
+@property (retain) NSString *username;
+
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 

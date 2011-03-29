@@ -8,6 +8,8 @@
 
 #import "ContactsViewController.h"
 #import "ChatViewController.h"
+#import "IASKAppSettingsViewController.h"
+#import "ChatAppDelegate.h"
 
 @interface ContactsViewController()
 
@@ -21,6 +23,16 @@
 
 @end
 
+@interface NSNetService (ContactsViewControllerAdditions)
+- (NSComparisonResult) localizedCaseInsensitiveCompareByName:(NSNetService *)aService;
+@end
+
+@implementation NSNetService (ContactsViewControllerAdditions)
+- (NSComparisonResult) localizedCaseInsensitiveCompareByName:(NSNetService *)aService {
+	return [[self name] localizedCaseInsensitiveCompare:[aService name]];
+}
+@end
+
 
 @implementation ContactsViewController
 
@@ -28,6 +40,33 @@
 @synthesize contacts = _contacts;
 @synthesize needsActivityIndicator = _needsActivityIndicator;
 @synthesize timer = _timer;
+@synthesize applicationDelegate;
+
+
+#pragma mark - Settings view controller dependencies
+
+@synthesize settingsViewController;
+
+- (IASKAppSettingsViewController*)settingsViewController {
+	if (!settingsViewController) {
+		settingsViewController = [[IASKAppSettingsViewController alloc] initWithNibName:@"IASKAppSettingsView" bundle:nil];
+		settingsViewController.delegate = self;
+        settingsViewController.showCreditsFooter = NO;
+	}
+	return settingsViewController;
+}
+
+- (void)settingsViewControllerDidEnd:(IASKAppSettingsViewController*)sender {
+    [self dismissModalViewControllerAnimated:YES];
+    
+    // Reconfigure
+    self.applicationDelegate.service = [[sender settingsStore] objectForKey:@"service_preference"];
+    self.applicationDelegate.username = [[sender settingsStore] objectForKey:@"username_preference"];
+    self.applicationDelegate.domain = [[sender settingsStore] objectForKey:@"domain_preference"];
+    
+    [self.applicationDelegate startServer];
+}
+
 
 #pragma mark - View delegate
 
@@ -35,42 +74,6 @@
 {
     _contacts = [[NSMutableArray alloc] init];
     [super viewDidLoad];
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Relinquish ownership any cached data, images, etc that aren't in use.
 }
 
 
@@ -150,31 +153,38 @@
 }
 
 
-#pragma mark - Bonjour resolving delegate
+#pragma mark - Bonjour lookup delegate
 
-- (void)netServiceBrowser:(NSNetServiceBrowser *)netServiceBrowser didRemoveService:(NSNetService *)service moreComing:(BOOL)moreComing {
-	/*if (self.currentResolve && [service isEqual:self.currentResolve]) {
-     [self stopCurrentResolve];
-     }*/
+- (void)netServiceBrowser:(NSNetServiceBrowser *)netServiceBrowser
+         didRemoveService:(NSNetService *)service
+               moreComing:(BOOL)moreComing {
+    if (self.currentResolve && [service isEqual:self.currentResolve]) {
+        [self stopCurrentResolve];
+    }
+    
 	[self.contacts removeObject:service];
-	/*if (self.ownEntry == service)
-     self.ownEntry = nil;*/
-	if (!moreComing) {
+	
+    if (!moreComing) {
 		[self sortAndUpdateUI];
 	}
 }	
 
-- (void)netServiceBrowser:(NSNetServiceBrowser *)netServiceBrowser didFindService:(NSNetService *)service moreComing:(BOOL)moreComing {
-	// If a service came online, add it to the list and update the table view if no more events are queued.
-	/*if ([service.name isEqual:self.ownName])
-     self.ownEntry = service;
-     else*/
+- (void)netServiceBrowser:(NSNetServiceBrowser *)netServiceBrowser
+           didFindService:(NSNetService *)service
+               moreComing:(BOOL)moreComing {
+	if ([service.name isEqual:self.applicationDelegate.username]) {
+        return;
+    }
     
     [self.contacts addObject:service];
+    
 	if (!moreComing) {
 		[self sortAndUpdateUI];
 	}
 }
+
+
+#pragma mark - Service resolving delegate
 
 - (void)netService:(NSNetService *)sender didNotResolve:(NSDictionary *)errorDict {
 	[self stopCurrentResolve];
@@ -187,13 +197,19 @@
 	[service retain];
 	[self stopCurrentResolve];
 	
+    // Create a new chat view
     ChatViewController *chatViewController = [[ChatViewController alloc] initWithService:service];
     
+    // Display the chat view
     [self.navigationController pushViewController:chatViewController animated:YES];
-    [chatViewController release];
     
+    // These references are no more needed
+    [chatViewController release];
     [service release];
 }
+
+
+#pragma mark - Utility resolving methods
 
 - (void)stopCurrentResolve {
     self.needsActivityIndicator = NO;
@@ -202,6 +218,9 @@
 	[self.currentResolve stop];
 	self.currentResolve = nil;
 }
+
+
+#pragma mark - Other UI related methods
 
 - (void)showWaiting:(NSTimer *)timer {
 	if (timer == self.timer) {
@@ -217,22 +236,18 @@
 	}
 }
 
-/*[self.services release];
-self.services = nil;
-
-self.services = [[NSMutableArray alloc] init];*/
-
-#pragma mark - Other NSObject methods
+- (IBAction) showSettingsView:(id)button
+{
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.settingsViewController];
+    self.settingsViewController.showDoneButton = YES;
+    [self presentModalViewController:navigationController animated:YES];
+    [navigationController release];
+}
 
 - (void)sortAndUpdateUI {
 	// Sort the services by name.
-	//[self.services sortUsingSelector:@selector(localizedCaseInsensitiveCompareByName:)];
+	[self.contacts sortUsingSelector:@selector(localizedCaseInsensitiveCompareByName:)];
 	[self.tableView reloadData];
-}
-
-- (void)dealloc
-{
-    [super dealloc];
 }
 
 @end

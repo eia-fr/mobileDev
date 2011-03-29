@@ -196,6 +196,8 @@ static void TCPServerAcceptCallBack(CFSocketRef socket, CFSocketCallBackType typ
     CFRunLoopAddSource(cfrl, source, kCFRunLoopCommonModes);
     CFRelease(source);
 	
+    NSLog(@"Port: %d", self.port);
+    
     return YES;
 }
 

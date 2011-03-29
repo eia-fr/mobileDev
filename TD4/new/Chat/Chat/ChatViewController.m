@@ -80,6 +80,8 @@
         _contact = name;     
         _chatlog = [[NSMutableArray alloc] init];
         
+        _inReady = YES;
+        _outReady = YES;
         _inStream = [istr retain];
         _outStream = [ostr retain];
         _inStream.delegate = self;
@@ -153,9 +155,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    NSString *CellIdentifier;
     
     ChatLogEntry * entry = [self.chatlog objectAtIndex:indexPath.row];
+    
+    if (!entry.received) {
+        CellIdentifier = @"CellLeft";
+    } else {
+        CellIdentifier = @"CellRight";
+    }
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -192,6 +200,7 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {    
     if (!_outReady) {
+        NSLog(@"Output stream not yet ready");
         return NO;
     }
     
@@ -207,6 +216,7 @@
     [self.chatlog addObject:entry];
     [entry release];
     [table reloadData];
+    
     NSIndexPath* ipath = [NSIndexPath indexPathForRow: [self.chatlog count]-1 inSection: 0];
     [table scrollToRowAtIndexPath: ipath atScrollPosition: UITableViewScrollPositionTop animated: YES];
     
@@ -251,6 +261,9 @@
                 NSString *message = [[[NSString alloc] initWithBytes:buf length:len encoding:NSUTF8StringEncoding] autorelease];
                 [self.chatlog addObject:[[ChatLogEntry alloc] initWithEntry:message Received:YES]];
                 [table reloadData];
+                
+                NSIndexPath* ipath = [NSIndexPath indexPathForRow: [self.chatlog count]-1 inSection: 0];
+                [table scrollToRowAtIndexPath: ipath atScrollPosition: UITableViewScrollPositionTop animated: YES];
             } else {
                 NSLog(@"no buffer!");
             }

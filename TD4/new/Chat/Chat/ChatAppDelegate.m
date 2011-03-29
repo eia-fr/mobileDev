@@ -13,14 +13,15 @@
 
 @interface ChatAppDelegate ()
 - (BOOL)searchForServicesOfType:(NSString *)type inDomain:(NSString *)domain;
-- (BOOL)startServer;
 - (void) showAlert:(NSString *)title;
 @end
 
 @implementation ChatAppDelegate
 
 @synthesize window=_window;
-
+@synthesize service;
+@synthesize domain;
+@synthesize username;
 @synthesize navigationController=_navigationController;
 
 
@@ -29,7 +30,36 @@
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSString *settingsBundle = [[NSBundle mainBundle] pathForResource:@"Settings" ofType:@"bundle"];
+    NSDictionary *settings = [NSDictionary dictionaryWithContentsOfFile:[settingsBundle stringByAppendingPathComponent:@"Root.plist"]];
+    
+    NSArray *preferences = [settings objectForKey:@"PreferenceSpecifiers"];
+    NSMutableDictionary *defaultsToRegister = [[NSMutableDictionary alloc] initWithCapacity:[preferences count]];
+    
+    for (NSDictionary *prefSpecification in preferences) {
+        NSString *key = [prefSpecification objectForKey:@"Key"];
+        
+        if (key) {
+            if ([defaults objectForKey:key] == nil) {
+                id objectToSet = [prefSpecification objectForKey:@"DefaultValue"];
+                [defaultsToRegister setObject:objectToSet forKey:key];
+            }
+        }
+    }
+    
+    [defaults registerDefaults:defaultsToRegister];
+    [defaultsToRegister release];
+    [defaults synchronize];
+    
+    self.service = [defaults stringForKey:@"service_preference"];
+    self.domain = [defaults stringForKey:@"domain_preference"];
+    self.username = [defaults stringForKey:@"username_preference"];
+
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -57,9 +87,10 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
-{
+{    
     // Start the bonjour lookup
-    [self searchForServicesOfType:[TCPServer bonjourTypeFromIdentifier:@"i3chat"] inDomain:@"local"];
+    [self searchForServicesOfType:[TCPServer bonjourTypeFromIdentifier:self.service]
+                         inDomain:self.domain];
     [self startServer];
 }
 
@@ -90,7 +121,7 @@
 
 #pragma mark - Global network services
 
-- (BOOL)searchForServicesOfType:(NSString *)type inDomain:(NSString *)domain {
+- (BOOL)searchForServicesOfType:(NSString *)type inDomain:(NSString *)localDomain {
 	//[self stopCurrentResolve];
 	//[self.netServiceBrowser stop];
     
@@ -101,15 +132,29 @@
 	}
     
 	netServiceBrowser.delegate = ((id<NSNetServiceBrowserDelegate>) contactsController);
-	[netServiceBrowser searchForServicesOfType:type inDomain:domain];
+	[netServiceBrowser searchForServicesOfType:type inDomain:localDomain];
     
 	return YES;
 }
 
-- (BOOL)startServer
+- (BOOL)startServer{
+    return [self startServerOnDomain:self.domain
+                              ofType:self.service
+                            withName:self.username];
+}
+
+- (BOOL)startServerOnDomain:(NSString *)localDomain 
+                     ofType:(NSString*)type 
+                   withName:(NSString *)name
 {
+    // Make sure to stop any running server instance
+    [self stopServer];
+    
+    // Create the new server and register the delegate
     server = [TCPServer new];
 	[server setDelegate:self];
+    
+    // Start the server by checking for errors
 	NSError *error = nil;
 	if(server == nil || ![server start:&error]) {
 		if (error == nil) {
@@ -121,11 +166,27 @@
 		return NO;
 	}
 	
-	if(![server enableBonjourWithDomain:@"local" applicationProtocol:[TCPServer bonjourTypeFromIdentifier:@"i3chat"] name:nil]) {
+    // Advertise the server as a bonjour service
+    NSString* serviceType = [TCPServer bonjourTypeFromIdentifier:type];
+	if(![server enableBonjourWithDomain:localDomain
+                    applicationProtocol:serviceType
+                                   name:name]) {
 		[self showAlert:@"Failed advertising server"];
 		return NO;
 	}
+    NSLog(@"Advertising server as %@.%@%@", localDomain, serviceType, name);
     
+    return YES;
+}
+
+- (BOOL)stopServer
+{
+    if (server) {
+        BOOL ret = [server stop];
+        [server release];
+        server = nil;
+        return ret;
+    }
     return YES;
 }
 
@@ -142,15 +203,16 @@
 - (void) didAcceptConnectionForServer:(TCPServer*)server inputStream:(NSInputStream *)istr outputStream:(NSOutputStream *)ostr
 {
     NSLog(@"Client connected");
-    [istr retain];
-    [ostr retain];
+    
+    _ostr = [istr retain];
+    _istr = [ostr retain];
+    
     [istr setDelegate:self];
     [istr scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-    [ostr scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
     [istr open];
+    
+    [ostr scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
     [ostr open];
-    _ostr = ostr;
-    _istr = istr;
 }
 
 @end
@@ -159,26 +221,21 @@
 
 - (void) stream:(NSStream *)stream handleEvent:(NSStreamEvent)eventCode
 {
-    switch(eventCode) {
-		case NSStreamEventHasBytesAvailable:
-		{   
-            uint8_t buf[1024];
-            unsigned int len = 0;
-            len = [(NSInputStream *)stream read:buf maxLength:1024];
-            if (len) {
-                NSString *name = [[[NSString alloc] initWithBytes:buf length:len encoding:NSUTF8StringEncoding] autorelease];
-                
-                UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New chat request" message:name delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                [alertView show];
-                [alertView release];
-                
-                ChatViewController *chatViewController = [[ChatViewController alloc] initWithInputStream:_istr outputStream:_ostr name:name];
-                [self.navigationController pushViewController:chatViewController animated:YES];
-                [chatViewController release];
-            }
+    if (eventCode == NSStreamEventHasBytesAvailable) {   
+        uint8_t buf[1024];
+        unsigned int len = 0;
+        len = [(NSInputStream *)stream read:buf maxLength:1024];
+        if (len) {
+            NSString *name = [[[NSString alloc] initWithBytes:buf length:len encoding:NSUTF8StringEncoding] autorelease];
             
-			break;
-		}
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New chat request" message:name delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+            [alertView release];
+            
+            ChatViewController *chatViewController = [[ChatViewController alloc] initWithInputStream:_istr outputStream:_ostr name:name];
+            [self.navigationController pushViewController:chatViewController animated:YES];
+            [chatViewController release];
+        }
 	}
 }
 

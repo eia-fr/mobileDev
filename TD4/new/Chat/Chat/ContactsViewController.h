@@ -8,15 +8,24 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/NSNetServices.h>
+#import "IASKAppSettingsViewController.h"
 
-@interface ContactsViewController : UITableViewController <NSNetServiceDelegate, NSNetServiceBrowserDelegate> {
+@class ChatAppDelegate;
+
+@interface ContactsViewController : UITableViewController <IASKSettingsDelegate, NSNetServiceDelegate, NSNetServiceBrowserDelegate> {
 
 @private
     NSNetService *_currentResolve;
     NSMutableArray *_contacts;
     NSTimer *_timer;
     BOOL _needsActivityIndicator;
+    IASKAppSettingsViewController *settingsViewController;
 }
+
+@property (retain) IBOutlet ChatAppDelegate * applicationDelegate;
+@property (nonatomic, retain) IASKAppSettingsViewController *settingsViewController;
+
+- (IBAction) showSettingsView:(id)button;
 
 
 @end
