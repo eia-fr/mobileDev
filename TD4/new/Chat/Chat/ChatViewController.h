@@ -37,6 +37,8 @@
 	BOOL _outReady;
 }
 
+@property (retain) NSString* myName;
+
 - (id)initWithService:(NSNetService *)service;
 - (id)initWithInputStream:(NSInputStream *)istr outputStream:(NSOutputStream *)ostr name:(NSString *)name;
 
