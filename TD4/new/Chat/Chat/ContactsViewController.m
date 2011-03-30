@@ -199,6 +199,7 @@
 	
     // Create a new chat view
     ChatViewController *chatViewController = [[ChatViewController alloc] initWithService:service];
+    chatViewController.myName = self.applicationDelegate.username;
     
     // Display the chat view
     [self.navigationController pushViewController:chatViewController animated:YES];

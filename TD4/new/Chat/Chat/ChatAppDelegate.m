@@ -204,8 +204,8 @@
 {
     NSLog(@"Client connected");
     
-    _ostr = [istr retain];
-    _istr = [ostr retain];
+    _ostr = [ostr retain];
+    _istr = [istr retain];
     
     [istr setDelegate:self];
     [istr scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
@@ -233,6 +233,7 @@
             [alertView release];
             
             ChatViewController *chatViewController = [[ChatViewController alloc] initWithInputStream:_istr outputStream:_ostr name:name];
+            chatViewController.myName = self.username;
             [self.navigationController pushViewController:chatViewController animated:YES];
             [chatViewController release];
         }

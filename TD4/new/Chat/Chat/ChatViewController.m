@@ -39,7 +39,7 @@
 @implementation ChatViewController
 
 @synthesize chatlog = _chatlog;
-
+@synthesize myName;
 
 
 - (id)initWithService:(NSNetService *)service {
@@ -247,7 +247,7 @@
         case NSStreamEventHasSpaceAvailable:
         {
             if (!_nameSent && stream == _outStream) {
-                [self send:_contact];
+                [self send:self.myName];
                 _nameSent = YES;
             }
             break;
